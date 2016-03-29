@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="ModelContainerEntities">
+    <EntitySetMapping Name="AH_USER">
+      <EntityTypeMapping TypeName="Model.AH_USER">
+        <MappingFragment StoreEntitySet="AH_USER">
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="NAME_SURNAME" ColumnName="NAME_SURNAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="FULL_REPORT_PERM" ColumnName="FULL_REPORT_PERM" />
+          <ScalarProperty Name="IS_ADMIN" ColumnName="IS_ADMIN" />
+          <ScalarProperty Name="ACTIVE_PASSIVE" ColumnName="ACTIVE_PASSIVE" />
+          <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+          <ScalarProperty Name="REPORT_CHK" ColumnName="REPORT_CHK" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="UPDATE_DATE" ColumnName="UPDATE_DATE" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AH_USER_GROUP">
+      <EntityTypeMapping TypeName="Model.AH_USER_GROUP">
+        <MappingFragment StoreEntitySet="AH_USER_GROUP">
+          <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+          <ScalarProperty Name="GROUP_NAME" ColumnName="GROUP_NAME" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_DATE" ColumnName="UPDATE_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AH_USERGROUP_PERM">
+      <EntityTypeMapping TypeName="Model.AH_USERGROUP_PERM">
+        <MappingFragment StoreEntitySet="AH_USERGROUP_PERM">
+          <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="REPORT_TYPE_ID" ColumnName="REPORT_TYPE_ID" />
+          <ScalarProperty Name="PRIORITY" ColumnName="PRIORITY" />
+          <ScalarProperty Name="AUTO_ASSIGN_CHK" ColumnName="AUTO_ASSIGN_CHK" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_DATE" ColumnName="UPDATE_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPARTMENTS">
+      <EntityTypeMapping TypeName="Model.DEPARTMENTS">
+        <MappingFragment StoreEntitySet="DEPARTMENTS">
+          <ScalarProperty Name="ID_DEPARTMENT" ColumnName="ID_DEPARTMENT" />
+          <ScalarProperty Name="DEPARTMANT_NAME" ColumnName="DEPARTMANT_NAME" />
+          <ScalarProperty Name="DP_CREATE_USER" ColumnName="DP_CREATE_USER" />
+          <ScalarProperty Name="DP_CREATE_DATE" ColumnName="DP_CREATE_DATE" />
+          <ScalarProperty Name="DP_UPDATE_USER" ColumnName="DP_UPDATE_USER" />
+          <ScalarProperty Name="DP_UPDATE_DATE" ColumnName="DP_UPDATE_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENERAL_PARAMETER">
+      <EntityTypeMapping TypeName="Model.GENERAL_PARAMETER">
+        <MappingFragment StoreEntitySet="GENERAL_PARAMETER">
+          <ScalarProperty Name="PARAM_NAME" ColumnName="PARAM_NAME" />
+          <ScalarProperty Name="PARAM_VAL" ColumnName="PARAM_VAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOSPITALS">
+      <EntityTypeMapping TypeName="Model.HOSPITALS">
+        <MappingFragment StoreEntitySet="HOSPITALS">
+          <ScalarProperty Name="HOSPITAL_ID" ColumnName="HOSPITAL_ID" />
+          <ScalarProperty Name="HOSPITAL_NAME" ColumnName="HOSPITAL_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MLIST_NEW">
+      <EntityTypeMapping TypeName="Model.MLIST_NEW">
+        <MappingFragment StoreEntitySet="MLIST_NEW">
+          <ScalarProperty Name="MPHONE" ColumnName="MPHONE" />
+          <ScalarProperty Name="CONTENT" ColumnName="CONTENT" />
+          <ScalarProperty Name="TIME" ColumnName="TIME" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PATIENTS">
+      <EntityTypeMapping TypeName="Model.PATIENTS">
+        <MappingFragment StoreEntitySet="PATIENTS">
+          <ScalarProperty Name="PA_PROT_ID" ColumnName="PA_PROT_ID" />
+          <ScalarProperty Name="PA_NAME_NUM" ColumnName="PA_NAME_NUM" />
+          <ScalarProperty Name="PA_PRIORITY" ColumnName="PA_PRIORITY" />
+          <ScalarProperty Name="PA_NAME" ColumnName="PA_NAME" />
+          <ScalarProperty Name="PA_NAMEREV" ColumnName="PA_NAMEREV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REC_STATE">
+      <EntityTypeMapping TypeName="Model.REC_STATE">
+        <MappingFragment StoreEntitySet="REC_STATE">
+          <ScalarProperty Name="RC_STATE" ColumnName="RC_STATE" />
+          <ScalarProperty Name="STATE_DESC" ColumnName="STATE_DESC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECS">
+      <EntityTypeMapping TypeName="Model.RECS">
+        <MappingFragment StoreEntitySet="RECS">
+          <ScalarProperty Name="RC_ID" ColumnName="RC_ID" />
+          <ScalarProperty Name="RC_PROT_ID" ColumnName="RC_PROT_ID" />
+          <ScalarProperty Name="RC_REPORTTYPE" ColumnName="RC_REPORTTYPE" />
+          <ScalarProperty Name="RC_AUTHOR" ColumnName="RC_AUTHOR" />
+          <ScalarProperty Name="RC_DATE" ColumnName="RC_DATE" />
+          <ScalarProperty Name="RC_PHRNUM" ColumnName="RC_PHRNUM" />
+          <ScalarProperty Name="RC_STATE" ColumnName="RC_STATE" />
+          <ScalarProperty Name="RC_PRIORITY" ColumnName="RC_PRIORITY" />
+          <ScalarProperty Name="RC_PARENT_ID" ColumnName="RC_PARENT_ID" />
+          <ScalarProperty Name="RC_MEMO" ColumnName="RC_MEMO" />
+          <ScalarProperty Name="RC_HOSPITAL" ColumnName="RC_HOSPITAL" />
+          <ScalarProperty Name="RC_DEP" ColumnName="RC_DEP" />
+          <ScalarProperty Name="RC_UNIXTIME" ColumnName="RC_UNIXTIME" />
+          <ScalarProperty Name="RC_TALKFILE" ColumnName="RC_TALKFILE" />
+          <ScalarProperty Name="RC_CREATE_USER" ColumnName="RC_CREATE_USER" />
+          <ScalarProperty Name="RC_CREATE_DATE" ColumnName="RC_CREATE_DATE" />
+          <ScalarProperty Name="RC_UPDATE_USER" ColumnName="RC_UPDATE_USER" />
+          <ScalarProperty Name="RC_UPDATE_DATE" ColumnName="RC_UPDATE_DATE" />
+          <ScalarProperty Name="RC_ACC_ID" ColumnName="RC_ACC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REPORT_COLUMNS">
+      <EntityTypeMapping TypeName="Model.REPORT_COLUMNS">
+        <MappingFragment StoreEntitySet="REPORT_COLUMNS">
+          <ScalarProperty Name="TAB_NAME" ColumnName="TAB_NAME" />
+          <ScalarProperty Name="COL_NAME" ColumnName="COL_NAME" />
+          <ScalarProperty Name="COL_DESC" ColumnName="COL_DESC" />
+          <ScalarProperty Name="COL_HEADER" ColumnName="COL_HEADER" />
+          <ScalarProperty Name="SIRA" ColumnName="SIRA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REPORTDESC">
+      <EntityTypeMapping TypeName="Model.REPORTDESC">
+        <MappingFragment StoreEntitySet="REPORTDESC">
+          <ScalarProperty Name="RD_REPORTTYPE" ColumnName="RD_REPORTTYPE" />
+          <ScalarProperty Name="RD_PHRNUM" ColumnName="RD_PHRNUM" />
+          <ScalarProperty Name="RD_REPEATABLE" ColumnName="RD_REPEATABLE" />
+          <ScalarProperty Name="RD_REPORT_NAME" ColumnName="RD_REPORT_NAME" />
+          <ScalarProperty Name="RD_DESC" ColumnName="RD_DESC" />
+          <ScalarProperty Name="TEMPLATE" ColumnName="TEMPLATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEMPLATE_SUBSTITUTION">
+      <EntityTypeMapping TypeName="Model.TEMPLATE_SUBSTITUTION">
+        <MappingFragment StoreEntitySet="TEMPLATE_SUBSTITUTION">
+          <ScalarProperty Name="TAB_NAME" ColumnName="TAB_NAME" />
+          <ScalarProperty Name="COL_NAME" ColumnName="COL_NAME" />
+          <ScalarProperty Name="REPLACE_STRING" ColumnName="REPLACE_STRING" />
+          <ScalarProperty Name="BEFORE_AFTER" ColumnName="BEFORE_AFTER" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DATE_TYPE" ColumnName="DATE_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANS">
+      <EntityTypeMapping TypeName="Model.TRANS">
+        <MappingFragment StoreEntitySet="TRANS">
+          <ScalarProperty Name="TR_RECID" ColumnName="TR_RECID" />
+          <ScalarProperty Name="TR_TRANSCRIBER" ColumnName="TR_TRANSCRIBER" />
+          <ScalarProperty Name="TR_DOCNAME" ColumnName="TR_DOCNAME" />
+          <ScalarProperty Name="TR_STARTDATE" ColumnName="TR_STARTDATE" />
+          <ScalarProperty Name="TR_STOPDATE" ColumnName="TR_STOPDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="Model.USERS">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="US_CODE" ColumnName="US_CODE" />
+          <ScalarProperty Name="US_PASSWD" ColumnName="US_PASSWD" />
+          <ScalarProperty Name="US_NAME" ColumnName="US_NAME" />
+          <ScalarProperty Name="US_ACTIVE" ColumnName="US_ACTIVE" />
+          <ScalarProperty Name="US_PHONE" ColumnName="US_PHONE" />
+          <ScalarProperty Name="US_DEPID" ColumnName="US_DEPID" />
+          <ScalarProperty Name="US_HOSPITAL" ColumnName="US_HOSPITAL" />
+          <ScalarProperty Name="US_FLAGS" ColumnName="US_FLAGS" />
+          <ScalarProperty Name="US_CREATE_USER" ColumnName="US_CREATE_USER" />
+          <ScalarProperty Name="US_CREATE_DATE" ColumnName="US_CREATE_DATE" />
+          <ScalarProperty Name="US_UPDATE_USER" ColumnName="US_UPDATE_USER" />
+          <ScalarProperty Name="US_UPDATE_DATE" ColumnName="US_UPDATE_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="USER_REPORTS" TypeName="Model.USER_REPORTS" StoreEntitySet="USER_REPORTS">
+      <EndProperty Name="USERS">
+        <ScalarProperty Name="US_CODE" ColumnName="US_CODE" />
+      </EndProperty>
+      <EndProperty Name="REPORTDESC">
+        <ScalarProperty Name="RD_REPORTTYPE" ColumnName="RD_REPORTTYPE" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

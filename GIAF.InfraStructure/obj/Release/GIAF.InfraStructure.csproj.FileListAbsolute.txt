@@ -1,0 +1,11 @@
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\GIAF.InfraStructure.dll.config
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\GIAF.InfraStructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\GIAF.InfraStructure.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\Castle.Core.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\EntityFramework.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\EntityFramework.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\obj\Release\GIAF.InfraStructure.csprojResolveAssemblyReference.cache
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\obj\Release\GIAF.InfraStructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.InfraStructure\obj\Release\GIAF.InfraStructure.pdb

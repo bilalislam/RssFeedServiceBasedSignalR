@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "GetData";
+}
+
+<script src="~/Scripts/custom/Home/news.js"></script>
+
+@Html.Label("New Url")<br />
+@Html.TextBox("txtUrl", string.Empty, new { style = "width:150px;" })
+<br /><br />
+<input type="submit" id="btnSubmit" value="Load News"/>
+<input type="submit" id="btnClear" value="Reset" />

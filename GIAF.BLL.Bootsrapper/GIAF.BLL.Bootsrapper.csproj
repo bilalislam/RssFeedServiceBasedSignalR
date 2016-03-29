@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E17C63DA-7CA3-42BE-9CD8-E74E09A041CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GIAF.BLL.Bootsrapper</RootNamespace>
+    <AssemblyName>GIAF.BLL.Bootsrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>E:\BILAL ISLAM\CCKSPT\BEV.Integration_v1.0\Service\BEV.Integration.Bootstrapper\bin\Debug\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging">
+      <HintPath>E:\BILAL ISLAM\CCKSPT\BEV.Integration_v1.0\Service\BEV.Integration.Bootstrapper\bin\Debug\Castle.Facilities.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.WcfIntegration">
+      <HintPath>E:\BILAL ISLAM\CCKSPT\BEV.Integration_v1.0\Service\BEV.Integration.Bootstrapper\bin\Debug\Castle.Facilities.WcfIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>E:\BILAL ISLAM\CCKSPT\BEV.Integration_v1.0\Service\BEV.Integration.Bootstrapper\bin\Debug\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentsBootsrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWorkInterceptor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GIAF.BLL.Contracts\GIAF.BLL.Contracts.csproj">
+      <Project>{cf606ec4-52b6-43dc-b492-c26ac4597cd4}</Project>
+      <Name>GIAF.BLL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.BLL.Service.API\GIAF.BLL.Service.API.csproj">
+      <Project>{5CA413C7-5B46-4BEC-BACB-5A259D6C6B5F}</Project>
+      <Name>GIAF.BLL.Service.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.BLL\GIAF.BLL.csproj">
+      <Project>{1adb85c5-0db7-4ea2-91b6-f9f42ca1bb3c}</Project>
+      <Name>GIAF.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.DataAccess.Contracts\GIAF.DataAccess.Contracts.csproj">
+      <Project>{10e6b5d8-0f9a-4d30-8435-f001d67bf705}</Project>
+      <Name>GIAF.DataAccess.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.DataAccess\GIAF.DataAccess.csproj">
+      <Project>{f8b4b883-29a1-4d2c-973b-eb2257ff7b94}</Project>
+      <Name>GIAF.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.Entity\GIAF.Entity.csproj">
+      <Project>{61796d33-0bb1-417f-a6e5-bd18038f79a8}</Project>
+      <Name>GIAF.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GIAF.InfraStructure\GIAF.InfraStructure.csproj">
+      <Project>{54f898be-7aa6-4e88-b9ea-c31279157736}</Project>
+      <Name>GIAF.InfraStructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

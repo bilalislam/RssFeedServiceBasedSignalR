@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ModelContainerEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="AH_USER" EntityType="Model.AH_USER" />
+    <EntitySet Name="AH_USER_GROUP" EntityType="Model.AH_USER_GROUP" />
+    <EntitySet Name="AH_USERGROUP_PERM" EntityType="Model.AH_USERGROUP_PERM" />
+    <EntitySet Name="DEPARTMENTS" EntityType="Model.DEPARTMENTS" />
+    <EntitySet Name="GENERAL_PARAMETER" EntityType="Model.GENERAL_PARAMETER" />
+    <EntitySet Name="HOSPITALS" EntityType="Model.HOSPITALS" />
+    <EntitySet Name="MLIST_NEW" EntityType="Model.MLIST_NEW" />
+    <EntitySet Name="PATIENTS" EntityType="Model.PATIENTS" />
+    <EntitySet Name="REC_STATE" EntityType="Model.REC_STATE" />
+    <EntitySet Name="RECS" EntityType="Model.RECS" />
+    <EntitySet Name="REPORT_COLUMNS" EntityType="Model.REPORT_COLUMNS" />
+    <EntitySet Name="REPORTDESC" EntityType="Model.REPORTDESC" />
+    <EntitySet Name="TEMPLATE_SUBSTITUTION" EntityType="Model.TEMPLATE_SUBSTITUTION" />
+    <EntitySet Name="TRANS" EntityType="Model.TRANS" />
+    <EntitySet Name="USERS" EntityType="Model.USERS" />
+    <AssociationSet Name="FK_AHUSER_AH_USERGROUP" Association="Model.FK_AHUSER_AH_USERGROUP">
+      <End Role="AH_USER_GROUP" EntitySet="AH_USER_GROUP" />
+      <End Role="AH_USER" EntitySet="AH_USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRANS_AHUSER" Association="Model.FK_TRANS_AHUSER">
+      <End Role="AH_USER" EntitySet="AH_USER" />
+      <End Role="TRANS" EntitySet="TRANS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USERGROUPPERM_USERGROUP" Association="Model.FK_USERGROUPPERM_USERGROUP">
+      <End Role="AH_USER_GROUP" EntitySet="AH_USER_GROUP" />
+      <End Role="AH_USERGROUP_PERM" EntitySet="AH_USERGROUP_PERM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USERGROUPPERM_DEPARTMENTS" Association="Model.FK_USERGROUPPERM_DEPARTMENTS">
+      <End Role="DEPARTMENTS" EntitySet="DEPARTMENTS" />
+      <End Role="AH_USERGROUP_PERM" EntitySet="AH_USERGROUP_PERM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USERGROUPPERM_REPORTDESC" Association="Model.FK_USERGROUPPERM_REPORTDESC">
+      <End Role="REPORTDESC" EntitySet="REPORTDESC" />
+      <End Role="AH_USERGROUP_PERM" EntitySet="AH_USERGROUP_PERM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_DEPARTMENT" Association="Model.FK_RECS_DEPARTMENT">
+      <End Role="DEPARTMENTS" EntitySet="DEPARTMENTS" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USERS_REF_DEPTS" Association="Model.FK_USERS_REF_DEPTS">
+      <End Role="DEPARTMENTS" EntitySet="DEPARTMENTS" />
+      <End Role="USERS" EntitySet="USERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_HOSPITAL" Association="Model.FK_RECS_HOSPITAL">
+      <End Role="HOSPITALS" EntitySet="HOSPITALS" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_PATIENT" Association="Model.FK_RECS_PATIENT">
+      <End Role="PATIENTS" EntitySet="PATIENTS" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_RECSTATE" Association="Model.FK_RECS_RECSTATE">
+      <End Role="REC_STATE" EntitySet="REC_STATE" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_DOCTOR" Association="Model.FK_RECS_DOCTOR">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECS_REPORTDESC" Association="Model.FK_RECS_REPORTDESC">
+      <End Role="REPORTDESC" EntitySet="REPORTDESC" />
+      <End Role="RECS" EntitySet="RECS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRANS_RECS" Association="Model.FK_TRANS_RECS">
+      <End Role="RECS" EntitySet="RECS" />
+      <End Role="TRANS" EntitySet="TRANS" />
+    </AssociationSet>
+    <AssociationSet Name="USER_REPORTS" Association="Model.USER_REPORTS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="REPORTDESC" EntitySet="REPORTDESC" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AH_USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="NAME_SURNAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PASSWORD" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="FULL_REPORT_PERM" Type="Int16" />
+    <Property Name="IS_ADMIN" Type="Int16" Nullable="false" />
+    <Property Name="ACTIVE_PASSIVE" Type="Int16" Nullable="false" />
+    <Property Name="GROUP_ID" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="REPORT_CHK" Type="Int16" Nullable="false" />
+    <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CREATE_USER" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="UPDATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="PHONE" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="AH_USER_GROUP" Relationship="Model.FK_AHUSER_AH_USERGROUP" FromRole="AH_USER" ToRole="AH_USER_GROUP" />
+    <NavigationProperty Name="TRANS" Relationship="Model.FK_TRANS_AHUSER" FromRole="AH_USER" ToRole="TRANS" />
+  </EntityType>
+  <EntityType Name="AH_USER_GROUP">
+    <Key>
+      <PropertyRef Name="GROUP_ID" />
+    </Key>
+    <Property Name="GROUP_ID" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="GROUP_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CREATE_USER" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="UPDATE_DATE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AH_USER" Relationship="Model.FK_AHUSER_AH_USERGROUP" FromRole="AH_USER_GROUP" ToRole="AH_USER" />
+    <NavigationProperty Name="AH_USERGROUP_PERM" Relationship="Model.FK_USERGROUPPERM_USERGROUP" FromRole="AH_USER_GROUP" ToRole="AH_USERGROUP_PERM" />
+  </EntityType>
+  <EntityType Name="AH_USERGROUP_PERM">
+    <Key>
+      <PropertyRef Name="GROUP_ID" />
+      <PropertyRef Name="DEPT_ID" />
+      <PropertyRef Name="REPORT_TYPE_ID" />
+    </Key>
+    <Property Name="GROUP_ID" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="DEPT_ID" Type="Int16" Nullable="false" />
+    <Property Name="REPORT_TYPE_ID" Type="Int16" Nullable="false" />
+    <Property Name="PRIORITY" Type="Int16" Nullable="false" />
+    <Property Name="AUTO_ASSIGN_CHK" Type="Int16" Nullable="false" />
+    <Property Name="CREATE_USER" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="UPDATE_DATE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AH_USER_GROUP" Relationship="Model.FK_USERGROUPPERM_USERGROUP" FromRole="AH_USERGROUP_PERM" ToRole="AH_USER_GROUP" />
+    <NavigationProperty Name="DEPARTMENTS" Relationship="Model.FK_USERGROUPPERM_DEPARTMENTS" FromRole="AH_USERGROUP_PERM" ToRole="DEPARTMENTS" />
+    <NavigationProperty Name="REPORTDESC" Relationship="Model.FK_USERGROUPPERM_REPORTDESC" FromRole="AH_USERGROUP_PERM" ToRole="REPORTDESC" />
+  </EntityType>
+  <EntityType Name="DEPARTMENTS">
+    <Key>
+      <PropertyRef Name="ID_DEPARTMENT" />
+    </Key>
+    <Property Name="ID_DEPARTMENT" Type="Int16" Nullable="false" />
+    <Property Name="DEPARTMANT_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DP_CREATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DP_CREATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="DP_UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DP_UPDATE_DATE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AH_USERGROUP_PERM" Relationship="Model.FK_USERGROUPPERM_DEPARTMENTS" FromRole="DEPARTMENTS" ToRole="AH_USERGROUP_PERM" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_DEPARTMENT" FromRole="DEPARTMENTS" ToRole="RECS" />
+    <NavigationProperty Name="USERS" Relationship="Model.FK_USERS_REF_DEPTS" FromRole="DEPARTMENTS" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="GENERAL_PARAMETER">
+    <Key>
+      <PropertyRef Name="PARAM_NAME" />
+    </Key>
+    <Property Name="PARAM_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PARAM_VAL" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="HOSPITALS">
+    <Key>
+      <PropertyRef Name="HOSPITAL_ID" />
+    </Key>
+    <Property Name="HOSPITAL_ID" Type="Int16" Nullable="false" />
+    <Property Name="HOSPITAL_NAME" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_HOSPITAL" FromRole="HOSPITALS" ToRole="RECS" />
+  </EntityType>
+  <EntityType Name="MLIST_NEW">
+    <Key>
+      <PropertyRef Name="MPHONE" />
+      <PropertyRef Name="CONTENT" />
+      <PropertyRef Name="TIME" />
+    </Key>
+    <Property Name="MPHONE" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="true" />
+    <Property Name="CONTENT" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="true" />
+    <Property Name="TIME" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="PATIENTS">
+    <Key>
+      <PropertyRef Name="PA_PROT_ID" />
+    </Key>
+    <Property Name="PA_PROT_ID" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="PA_NAME_NUM" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="PA_PRIORITY" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="PA_NAME" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PA_NAMEREV" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_PATIENT" FromRole="PATIENTS" ToRole="RECS" />
+  </EntityType>
+  <EntityType Name="REC_STATE">
+    <Key>
+      <PropertyRef Name="RC_STATE" />
+    </Key>
+    <Property Name="RC_STATE" Type="Int16" Nullable="false" />
+    <Property Name="STATE_DESC" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_RECSTATE" FromRole="REC_STATE" ToRole="RECS" />
+  </EntityType>
+  <EntityType Name="RECS">
+    <Key>
+      <PropertyRef Name="RC_ID" />
+    </Key>
+    <Property Name="RC_ID" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="RC_PROT_ID" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="RC_REPORTTYPE" Type="Int16" Nullable="false" />
+    <Property Name="RC_AUTHOR" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="RC_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RC_PHRNUM" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="RC_STATE" Type="Int16" Nullable="false" />
+    <Property Name="RC_PRIORITY" Type="Int16" />
+    <Property Name="RC_PARENT_ID" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="RC_MEMO" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="RC_HOSPITAL" Type="Int16" Nullable="false" />
+    <Property Name="RC_DEP" Type="Int16" Nullable="false" />
+    <Property Name="RC_UNIXTIME" Type="Int32" />
+    <Property Name="RC_TALKFILE" Type="Int32" Nullable="false" />
+    <Property Name="RC_CREATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="RC_CREATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="RC_UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="RC_UPDATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="RC_ACC_ID" Type="Int32" />
+    <NavigationProperty Name="DEPARTMENTS" Relationship="Model.FK_RECS_DEPARTMENT" FromRole="RECS" ToRole="DEPARTMENTS" />
+    <NavigationProperty Name="HOSPITALS" Relationship="Model.FK_RECS_HOSPITAL" FromRole="RECS" ToRole="HOSPITALS" />
+    <NavigationProperty Name="PATIENTS" Relationship="Model.FK_RECS_PATIENT" FromRole="RECS" ToRole="PATIENTS" />
+    <NavigationProperty Name="REC_STATE" Relationship="Model.FK_RECS_RECSTATE" FromRole="RECS" ToRole="REC_STATE" />
+    <NavigationProperty Name="USERS" Relationship="Model.FK_RECS_DOCTOR" FromRole="RECS" ToRole="USERS" />
+    <NavigationProperty Name="REPORTDESC" Relationship="Model.FK_RECS_REPORTDESC" FromRole="RECS" ToRole="REPORTDESC" />
+    <NavigationProperty Name="TRANS" Relationship="Model.FK_TRANS_RECS" FromRole="RECS" ToRole="TRANS" />
+  </EntityType>
+  <EntityType Name="REPORT_COLUMNS">
+    <Key>
+      <PropertyRef Name="TAB_NAME" />
+      <PropertyRef Name="COL_NAME" />
+    </Key>
+    <Property Name="TAB_NAME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="COL_NAME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="COL_DESC" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="COL_HEADER" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="SIRA" Type="Int16" />
+  </EntityType>
+  <EntityType Name="REPORTDESC">
+    <Key>
+      <PropertyRef Name="RD_REPORTTYPE" />
+    </Key>
+    <Property Name="RD_REPORTTYPE" Type="Int16" Nullable="false" />
+    <Property Name="RD_PHRNUM" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="RD_REPEATABLE" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="RD_REPORT_NAME" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="RD_DESC" Type="String" Nullable="false" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="TEMPLATE" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="AH_USERGROUP_PERM" Relationship="Model.FK_USERGROUPPERM_REPORTDESC" FromRole="REPORTDESC" ToRole="AH_USERGROUP_PERM" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_REPORTDESC" FromRole="REPORTDESC" ToRole="RECS" />
+    <NavigationProperty Name="USERS" Relationship="Model.USER_REPORTS" FromRole="REPORTDESC" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="TEMPLATE_SUBSTITUTION">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="TAB_NAME" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="COL_NAME" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="REPLACE_STRING" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="BEFORE_AFTER" Type="Int16" />
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="DATE_TYPE" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TRANS">
+    <Key>
+      <PropertyRef Name="TR_RECID" />
+    </Key>
+    <Property Name="TR_RECID" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="TR_TRANSCRIBER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="TR_DOCNAME" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+    <Property Name="TR_STARTDATE" Type="DateTime" Precision="0" />
+    <Property Name="TR_STOPDATE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AH_USER" Relationship="Model.FK_TRANS_AHUSER" FromRole="TRANS" ToRole="AH_USER" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_TRANS_RECS" FromRole="TRANS" ToRole="RECS" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="US_CODE" />
+    </Key>
+    <Property Name="US_CODE" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="US_PASSWD" Type="String" Nullable="false" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="US_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="US_ACTIVE" Type="Int16" Nullable="false" />
+    <Property Name="US_PHONE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="US_DEPID" Type="Int16" Nullable="false" />
+    <Property Name="US_HOSPITAL" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="US_FLAGS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="US_CREATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="US_CREATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="US_UPDATE_USER" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="US_UPDATE_DATE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="DEPARTMENTS" Relationship="Model.FK_USERS_REF_DEPTS" FromRole="USERS" ToRole="DEPARTMENTS" />
+    <NavigationProperty Name="RECS" Relationship="Model.FK_RECS_DOCTOR" FromRole="USERS" ToRole="RECS" />
+    <NavigationProperty Name="REPORTDESC" Relationship="Model.USER_REPORTS" FromRole="USERS" ToRole="REPORTDESC" />
+  </EntityType>
+  <Association Name="FK_AHUSER_AH_USERGROUP">
+    <End Role="AH_USER_GROUP" Type="Model.AH_USER_GROUP" Multiplicity="0..1" />
+    <End Role="AH_USER" Type="Model.AH_USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AH_USER_GROUP">
+        <PropertyRef Name="GROUP_ID" />
+      </Principal>
+      <Dependent Role="AH_USER">
+        <PropertyRef Name="GROUP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRANS_AHUSER">
+    <End Role="AH_USER" Type="Model.AH_USER" Multiplicity="0..1" />
+    <End Role="TRANS" Type="Model.TRANS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AH_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="TRANS">
+        <PropertyRef Name="TR_TRANSCRIBER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USERGROUPPERM_USERGROUP">
+    <End Role="AH_USER_GROUP" Type="Model.AH_USER_GROUP" Multiplicity="1" />
+    <End Role="AH_USERGROUP_PERM" Type="Model.AH_USERGROUP_PERM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AH_USER_GROUP">
+        <PropertyRef Name="GROUP_ID" />
+      </Principal>
+      <Dependent Role="AH_USERGROUP_PERM">
+        <PropertyRef Name="GROUP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USERGROUPPERM_DEPARTMENTS">
+    <End Role="DEPARTMENTS" Type="Model.DEPARTMENTS" Multiplicity="1" />
+    <End Role="AH_USERGROUP_PERM" Type="Model.AH_USERGROUP_PERM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPARTMENTS">
+        <PropertyRef Name="ID_DEPARTMENT" />
+      </Principal>
+      <Dependent Role="AH_USERGROUP_PERM">
+        <PropertyRef Name="DEPT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USERGROUPPERM_REPORTDESC">
+    <End Role="REPORTDESC" Type="Model.REPORTDESC" Multiplicity="1" />
+    <End Role="AH_USERGROUP_PERM" Type="Model.AH_USERGROUP_PERM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REPORTDESC">
+        <PropertyRef Name="RD_REPORTTYPE" />
+      </Principal>
+      <Dependent Role="AH_USERGROUP_PERM">
+        <PropertyRef Name="REPORT_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_DEPARTMENT">
+    <End Role="DEPARTMENTS" Type="Model.DEPARTMENTS" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPARTMENTS">
+        <PropertyRef Name="ID_DEPARTMENT" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_DEP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USERS_REF_DEPTS">
+    <End Role="DEPARTMENTS" Type="Model.DEPARTMENTS" Multiplicity="1" />
+    <End Role="USERS" Type="Model.USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPARTMENTS">
+        <PropertyRef Name="ID_DEPARTMENT" />
+      </Principal>
+      <Dependent Role="USERS">
+        <PropertyRef Name="US_DEPID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_HOSPITAL">
+    <End Role="HOSPITALS" Type="Model.HOSPITALS" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOSPITALS">
+        <PropertyRef Name="HOSPITAL_ID" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_HOSPITAL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_PATIENT">
+    <End Role="PATIENTS" Type="Model.PATIENTS" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PATIENTS">
+        <PropertyRef Name="PA_PROT_ID" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_PROT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_RECSTATE">
+    <End Role="REC_STATE" Type="Model.REC_STATE" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REC_STATE">
+        <PropertyRef Name="RC_STATE" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_STATE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_DOCTOR">
+    <End Role="USERS" Type="Model.USERS" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="US_CODE" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_AUTHOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECS_REPORTDESC">
+    <End Role="REPORTDESC" Type="Model.REPORTDESC" Multiplicity="1" />
+    <End Role="RECS" Type="Model.RECS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REPORTDESC">
+        <PropertyRef Name="RD_REPORTTYPE" />
+      </Principal>
+      <Dependent Role="RECS">
+        <PropertyRef Name="RC_REPORTTYPE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRANS_RECS">
+    <End Role="RECS" Type="Model.RECS" Multiplicity="1" />
+    <End Role="TRANS" Type="Model.TRANS" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="RECS">
+        <PropertyRef Name="RC_ID" />
+      </Principal>
+      <Dependent Role="TRANS">
+        <PropertyRef Name="TR_RECID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USER_REPORTS">
+    <End Role="USERS" Type="Model.USERS" Multiplicity="*" />
+    <End Role="REPORTDESC" Type="Model.REPORTDESC" Multiplicity="*" />
+  </Association>
+</Schema>

@@ -1,0 +1,95 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.Net4.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.Logging.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.Logging.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.csprojResolveAssemblyReference.cache
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.Net4.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.Logging.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Core.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.Logging.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Facilities.WcfIntegration.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\Castle.Windsor.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DTOs.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\bin\Debug\AutoMapper.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Bootsrapper.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.Service.API.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.BLL.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.DataAccess.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.Entity.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\GIAF.InfraStructure.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\bin\Debug\EntityFramework.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.csprojResolveAssemblyReference.cache
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Bootsrapper\obj\Debug\GIAF.BLL.Bootsrapper.pdb

@@ -1,0 +1,49 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.Entity.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.Entity.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.Entity.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\EntityFramework.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.DTOs.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.Entity.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\bin\Debug\EntityFramework.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.dll.config
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.BLL.Service.API.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.Entity.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\Castle.Core.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.BLL.Service.API.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.DataAccess.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.Entity.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\GIAF.InfraStructure.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.DataAccess\obj\Debug\GIAF.DataAccess.pdb

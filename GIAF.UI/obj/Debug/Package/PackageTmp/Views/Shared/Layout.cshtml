@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <script>
+        var ROOT = '@Url.Content("~/")';
+    </script>
+
+    <!-- CSS -->
+    <link href="~/Content/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.rtl.min.css" />
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.material.min.css" />
+
+    <!-- JS -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://kendo.cdn.telerik.com/2016.1.112/js/jszip.min.js"></script>
+    <script src="http://kendo.cdn.telerik.com/2016.1.112/js/kendo.all.min.js"></script>
+
+
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="@Url.Content("~/signalr/hubs")"></script>
+    <script src="~/Content/js/global.js"></script>
+
+    <script id="info-confirmation" type="text/x-kendo-template">
+        <p class="info-message">#= message #</p>
+    </script>
+</head>
+<body>
+    <div class="layoutTable w1000">
+        <div style="height:20px;"></div>
+        <div class="navbg">
+            <ul>
+                <li><a href="~/Home/Index" class="l1">Rss News</a></li>
+                <li><a target="_blank" href="~/News" class="l1">New Rss Feed</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <br />
+        @RenderBody()
+        <div class="footer-ghost"></div>
+    </div>
+
+    <footer>
+        <div class="bg w1000">
+            Copyright @DateTime.Now.Year
+        </div>
+    </footer>
+</body>
+</html>

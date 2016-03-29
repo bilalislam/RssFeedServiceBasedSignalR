@@ -1,0 +1,178 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\AutoMapper.Net4.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.UI.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.UI.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Core.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.Logging.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Bootsrapper.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Service.API.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Newtonsoft.Json.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Net.Http.Formatting.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Helpers.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.WebHost.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Mvc.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Razor.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\EntityFramework.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.InfraStructure.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.Entity.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\AutoMapper.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Bootsrapper.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Service.API.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Core.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Core.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.Logging.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\Newtonsoft.Json.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Net.Http.Formatting.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Helpers.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.WebHost.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Mvc.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.Razor.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\EntityFramework.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.InfraStructure.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.Entity.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\AutoMapper.xml
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.csprojResolveAssemblyReference.cache
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\AutoMapper.Net4.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.UI.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.UI.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Core.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.Logging.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Bootsrapper.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Service.API.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Microsoft.Web.Infrastructure.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Newtonsoft.Json.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Net.Http.Formatting.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Helpers.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.WebHost.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Mvc.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Razor.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Deployment.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Razor.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\EntityFramework.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.InfraStructure.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.Entity.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\AutoMapper.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Bootsrapper.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.Service.API.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.BLL.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DTOs.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Core.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Core.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.Logging.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Facilities.WcfIntegration.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Castle.Windsor.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\Newtonsoft.Json.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Net.Http.Formatting.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Helpers.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Http.WebHost.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Mvc.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.Razor.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Deployment.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\System.Web.WebPages.Razor.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\EntityFramework.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.InfraStructure.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.Entity.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\GIAF.DataAccess.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\bin\AutoMapper.xml
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.UI\obj\Debug\GIAF.UI.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.UI.dll.config
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.UI.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.UI.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Bootsrapper.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Service.API.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.Security.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Newtonsoft.Json.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Owin.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Net.Http.Formatting.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Helpers.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Http.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Http.WebHost.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Mvc.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Razor.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.InfraStructure.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\EntityFramework.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.Entity.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.DataAccess.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.DataAccess.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Bootsrapper.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.Service.API.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.BLL.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Microsoft.Owin.Security.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\Newtonsoft.Json.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Net.Http.Formatting.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Helpers.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Http.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Http.WebHost.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Mvc.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.Razor.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.InfraStructure.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\EntityFramework.xml
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.Entity.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.DataAccess.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\bin\GIAF.DataAccess.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\obj\Debug\GIAF.UI.csprojResolveAssemblyReference.cache
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\obj\Debug\GIAF.UI.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.UI\obj\Debug\GIAF.UI.pdb

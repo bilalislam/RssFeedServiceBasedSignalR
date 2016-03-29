@@ -1,0 +1,25 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\bin\Debug\GIAF.DTOs.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Contracts.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\bin\Debug\GIAF.BLL.Service.API.pdb
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.dll
+C:\Users\Bilal Islam\Desktop\SimpleSoaFx-master\SimpleSoaFx-master\GIAF.BLL.Contracts\obj\Debug\GIAF.BLL.Contracts.pdb
